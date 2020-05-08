@@ -1,0 +1,41 @@
+
+
+public class princi1 {
+		private String titulo;
+		private int duracaoEmMin;
+		
+		public princi1 (int duracaoEmMin, String titulo){
+			this.duracaoEmMin = duracaoEmMin;
+			this.titulo = titulo;
+			
+		}
+		
+		
+		
+			//GET // SET //
+		
+		//
+		public int getduracaoEmMin(){
+			return duracaoEmMin;
+		}
+		public void setDuracaoEmMin(int duracaoEmMin) {
+			this.duracaoEmMin = duracaoEmMin;
+		}
+		
+		//titulo
+		
+		public String getTitulo(){
+			return titulo;
+		}
+		public void settitulo(String titulo) {
+			this.titulo = titulo;
+		}
+			
+		
+		public void apresentarDuracao(){
+			System.out.println("duracaoEmMin: " + this.getduracaoEmMin());
+			
+		}
+		
+	
+}

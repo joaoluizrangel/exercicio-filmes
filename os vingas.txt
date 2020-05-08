@@ -1,0 +1,54 @@
+import java.util.*;
+public class osVinga {
+	public static void main (String[] args) {
+		
+		System.out.println("os filmes em cartaz São: Os vingadores e As Branquelas ");
+		
+		System.out.println("");
+		
+				//apresentação dos filmes
+		
+		System.out.println("Os vingadores:");
+			princi1 a = new princi1 (147, "Os Vingadores" );
+			a.apresentarDuracao();
+			
+				System.out.println("");
+			
+			System.out.println("hotel transilvania:");
+			princi1 b = new princi1 (93, "hotel transilvania" );
+			b.apresentarDuracao();
+			
+				System.out.println("");
+			
+			System.out.println("As Branquelas:");
+			princi1 c = new princi1 (70, "As Branquelas" );
+			c.apresentarDuracao();
+			
+				System.out.println("");
+			
+			System.out.println("A Fuga Das Galinhas:");
+			princi1 d = new princi1 (100, "A Fuga Das Galinhas" );
+			d.apresentarDuracao();
+			
+				System.out.println("");
+			
+			System.out.println("Harry pother:");
+			princi1 e = new princi1 (110, "Harry pother" );
+			e.apresentarDuracao();
+			
+				System.out.println("");
+			
+			System.out.println("Eragon:");
+			princi1 f = new princi1 (144, "Eragon" );
+			f.apresentarDuracao();
+			
+				System.out.println("");
+			
+			System.out.println("Pokemon:");
+			princi1 g = new princi1 (200, "Pokemon" );
+			g.apresentarDuracao();
+			
+			
+	}
+	
+}
